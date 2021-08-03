@@ -8,6 +8,6 @@ $$
 
 p为真实标签，q为学生网络输出（经过softmax）， $\tilde q$ 为老师网络输出（不经过softmax）再经过softmaxT
 
-前部分称为soft loss，后部分称为hard loss
+前部分称为soft loss（KL），后部分称为hard loss（cross—entrophy）
 
 ![](http://consolexinhun.test.upcdn.net/20200523181929.png)
